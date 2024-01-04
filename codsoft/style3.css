@@ -1,0 +1,105 @@
+.body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border:10px solid #fff;
+    border-radius: 8rem 8rem;
+    height: 35rem;
+    width: auto;
+
+}
+.about{
+  padding-left: 3rem;
+  padding-right: 32rem;
+}
+#all{
+  margin-top: 5px;
+}
+.text{
+  padding-left: 4rem;
+}
+.body{
+  border-radius:1.5rem 1.5rem ;
+  overflow: hidden;
+  position: relative;
+  margin-top: 2rem;
+}
+header{
+  background-color: #fff;
+  height: 1rem;
+}
+
+h2,h3,h4{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.main{
+  float: right;
+  height: 25rem;
+  padding-right: 3rem; 
+  padding-top: 3rem;
+  transition: transform 0.3s ease-in-out;
+}
+.main:hover{
+  transform: scale(1.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    margin-right: 55rem;
+    margin-top: 0.7rem;
+  }
+  .icon{
+    margin-left: 2rem;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+   
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+
+nav ul li a {
+    color: gray;
+    text-decoration: none;
+}
+
+.button {
+    background-color: #fff;
+    color: seagreen;
+    padding: 0.5rem 1.3rem;
+    border-radius: 2rem;
+    text-decoration: none;
+   margin-left: 3rem;
+}
+.button:active{
+    background-color: red;
+}
+
+#icon {
+    color: white;
+    padding: 0.5rem;
+}
+.content{
+  bottom: 0;
+  display: flex;
+  align-items: center;
+}
+.social{
+  padding-left: 3.5rem;
+}
+.list{
+  margin-left: -15rem;
+}
+.shop{
+  margin-right: 5rem;
+}

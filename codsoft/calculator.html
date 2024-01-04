@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<script src="script1.js"></script>
+    <div class="calculator">
+        <input type='text' id='result' class ='screen' style="text-align: right;"></td>
+    
+    <div class="row">
+        <button onclick="clearScreen()" class="clear">C</button>
+        <button>+/-</button>
+        <button onclick="display('%')">%</button>
+        <button class="divide" onclick="display('/')">&divide</button>
+    </div>
+    <div class="row">
+        <button onClick="display('7')">7</button>
+        <button onClick="display('8')">8</button>
+        <button onClick="display('9')">9</button>
+        <button class="divide" onClick="display('*')">&#215</button>
+    </div>
+    <div class="row">
+        <button onClick="display('4')">4</button>
+        <button onClick="display('5')">5</button>
+        <button onClick="display('6')">6</button>
+        <button class="divide" onClick="display('-')">-</button>
+    </div>
+    <div class="row">
+        <button onClick="display('1')">1</button>
+        <button onClick="display('2')">2</button>
+        <button onClick="display('3')">3</button>
+        <button class="divide" onClick="display('+')">+</button>
+    </div>
+    <div class="row">
+        <button id="zero" onClick="display('0')">0</button>
+        <button onClick="display('.')">.</button>
+        <button class="divide" onClick="solve()">=</button>
+    </div>
+</div>
+</body>
+</html>
